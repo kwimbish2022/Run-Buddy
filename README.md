@@ -12,3 +12,5 @@ https://kwimbish2022.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Kathryn Wimbish
+
+### &copy2019 Run Buddy, Inc
