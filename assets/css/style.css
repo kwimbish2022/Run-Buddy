@@ -49,6 +49,9 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+/* header / navbar styles end */
+
+/* footer styles start */
 footer {
   background: #fce138;
   width: 100%;
@@ -72,7 +75,9 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* end footer styles */
 
+/* style section tags */
 section {
   padding: 60px;
 }
@@ -101,7 +106,6 @@ section {
   font-size: 55px;
   color: #fce138;
 }
-/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
@@ -141,7 +145,29 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
+/* Hero Style End */
 
+/* section title styles start */
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+/* section title styles end */
+
+/* what we do styles */
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -150,7 +176,9 @@ section {
   margin: 0 auto;
   text-align: center;
 }
+/* what we do styles end */
 
+/* what you do styles start */
 .steps {
   background: #fce138;
 }
@@ -164,6 +192,12 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
 }
 
 .step-info {
@@ -182,12 +216,6 @@ section {
   max-width: 100%;
 }
 
-.step h3 {
-  color: #024e76;
-  font-size: 46px;
-  flex: 1 30%;
-}
-
 .step-text {
   flex: 12;
 }
@@ -202,25 +230,9 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
+/* what you do styles end */
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  border-bottom: 3px solid;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
-
+/*meet the trainers start */
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -258,14 +270,7 @@ section {
 .trainer-bio p {
   font-size: 17px;
 }
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
+/* trainer styles end */
 
 /* REACH OUT STYLES START */
 .contact {
@@ -329,12 +334,21 @@ section {
   padding: 15px 0;
   font-size: 16px;
 }
+
 .contact-info a {
   color: #fce138;
+}
+/* REACH OUT STYLES END */
+
+/* utilities */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .flex-row {
   display: flex;
 }
-
-/* REACH OUT STYLES END */
